@@ -1,3 +1,5 @@
+import sys
+
 # Ordered, Immutable, allows duplicate value
 tup = "not a string",
 print(type(tup))
@@ -15,7 +17,6 @@ print(f'{type(ls)=} {ls=}')
 print(f'{type(pst)=} {pst=}')
 
 # let's compare mem with list
-import sys
 
 tup_for_mem = "a", "b", 1, 1
 list_for_mem = ["a", "b", 1, 1]
