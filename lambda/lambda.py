@@ -19,5 +19,5 @@ print(list(squared_list_2))
 even_num = filter(lambda x: x % 2 == 0, range(1, 10))
 print(list(even_num))
 
-even_num = [x for x in range(1, 10) if x%2==0]
+even_num = [x for x in range(1, 10) if x % 2 == 0]
 print(even_num)
