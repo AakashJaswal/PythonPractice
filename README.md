@@ -11,7 +11,8 @@ Below are few codeblocks that can be helpful
 [**6. Collections**](collection)  
 [**7. Itertools**](itertools)  
 [**8. Lambda**](lambda)  
-[**9. Error and Exception**](list)  
+[**9. Error and Exception**](exception)  
+[**10. Logging**](logging)  
 
 
 [**Iterator vs Iterable vs Generators**](https://nvie.com/posts/iterators-vs-generators/)  
