@@ -10,4 +10,4 @@ Below are few codeblocks that can be helpful
 [**4. String**](string)  
 [**5. Collections**](collection)  
 [**6. Itertools**](itertools)  
-[**1. List**](list)  
+[**7. itertools**](list)  
