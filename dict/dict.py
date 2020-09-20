@@ -1,4 +1,4 @@
-# Mutable, unordered, key:val
+# Mutable, ordered, key:val
 
 # you don't have to give quotes with dict() keyword
 dict1 = {"Name": "M.Scott", "Pos": "Manager"}

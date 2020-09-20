@@ -9,3 +9,5 @@ str_back = ','.join(new_ls)
 print(str_back)
 
 # decimal formatting {:.2f}.format(2.333) = 2.33
+num = 222.4444
+print(f'{num:.2f}')
