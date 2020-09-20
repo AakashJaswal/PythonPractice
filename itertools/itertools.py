@@ -1,5 +1,6 @@
 # product, permutation, combination(with without replacement)
 # INFINITE iterators count, cycle, repeat
+# FINITE iterators isslice
 from itertools import product, groupby
 
 a = [1, 2]
