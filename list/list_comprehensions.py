@@ -1,5 +1,6 @@
 # ORDERED, MUTABLE with DUPLICATE ELEMENTS
 # kinda works like lambda syntax
+# syntax = [output_expression for element in iterable if some_condition]
 
 list1 = [1, 2, 3, 4, 5, 6]
 list2 = [element + element for element in list1]
