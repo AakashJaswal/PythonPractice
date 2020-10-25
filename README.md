@@ -3,16 +3,16 @@
 
 Below are few codeblocks that can be helpful  
 
-[**1. Lists**](list)  
-[**2. Tuples**](tuple)  
-[**3. Dictionary**](dict)  
-[**4. Sets**](sets)  
-[**5. String**](string)  
-[**6. Collections**](collection)  
-[**7. Itertools**](itertools)  
-[**8. Lambda**](lambda)  
-[**9. Error and Exception**](exception)  
-[**10. Logging**](logging)  
+[**1. Lists**](1.list)  
+[**2. Tuples**](2.tuple)  
+[**3. Dictionary**](3.dict)  
+[**4. Sets**](4.sets)  
+[**5. String**](5.string)  
+[**6. Collections**](6.collection)  
+[**7. Itertools**](7.itertools)  
+[**8. Lambda**](8.lambda)  
+[**9. Error and Exception**](9.exception)  
+[**10. Logging**](10.logging)  
 
 
 [**Iterator vs Iterable vs Generators**](https://nvie.com/posts/iterators-vs-generators/)  
