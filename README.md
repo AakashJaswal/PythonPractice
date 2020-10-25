@@ -12,7 +12,10 @@ Below are few codeblocks that can be helpful
 [**7. Itertools**](7.itertools)  
 [**8. Lambda**](8.lambda)  
 [**9. Error and Exception**](9.exception)  
-[**10. Logging**](10.logging)  
+[**10. Logging**](10.logging)
+
+Some Advance topics  
+[**11. Decorators**](11.Decorators)  
 
 
 [**Iterator vs Iterable vs Generators**](https://nvie.com/posts/iterators-vs-generators/)  
