@@ -39,3 +39,9 @@ flattened_matrix = [num
                     for row in matrix
                     for num in row]
 print(flattened_matrix)
+
+# ZIP loop over two sequence here list at a time
+x_axis = [1, 3, 5, 7]
+y_axis = [2, 4, 6, 8]
+for x,y in zip(x_axis,y_axis):
+    print(f"({x},{y})")
