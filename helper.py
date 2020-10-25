@@ -11,3 +11,6 @@ lst = [1, 2, 3, 4, 5]
 print(f'{sys.getsizeof(lst)=} bytes')
 
 print(f'{id(lst)=}')
+
+# Todo: Add about functional params
+# Todo: multithreading and multiprocessing
