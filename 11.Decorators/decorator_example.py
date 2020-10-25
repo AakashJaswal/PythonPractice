@@ -1,13 +1,13 @@
-def decoratorFunc(f):
-    def innerFunc():
+def decorator_func(f):
+    def inner_func():
         print("Initial common task")
         f()
         print("Ended common task")
 
-    return innerFunc
+    return inner_func
 
 
-@decoratorFunc
+@decorator_func
 def func1():
     print("Done the main task")
 
@@ -15,9 +15,9 @@ def func1():
 func1()
 
 # Below
-# @decoratorFunc
+# @decorator_func
 # def func1():
 #     print("Done the main task")
 
 # is equivalent to
-# func1 = decoratorFunc(func1)
+# func1 = decorator_func(func1)
