@@ -22,5 +22,13 @@ tup_for_mem = "a", "b", 1, 1
 list_for_mem = ["a", "b", 1, 1]
 print(f'{sys.getsizeof(tup_for_mem)=}')
 print(f'{sys.getsizeof(list_for_mem)=}')
-
 # Tuple take a less space
+
+# using tuple to swap value without using temp
+a = 4
+b = 3
+print(a, b)
+
+# this show how tuple packing and unpacking helps switching variable without any temp value
+b, a = a, b
+print(a, b)
