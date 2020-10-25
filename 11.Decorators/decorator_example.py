@@ -1,4 +1,7 @@
+import functools
+
 def decorator_func(f):
+    @functools.wraps(f)
     def inner_func():
         print("Initial common task")
         f()
@@ -13,6 +16,7 @@ def func1():
 
 
 func1()
+print(func1.__name__)
 
 # Below
 # @decorator_func
