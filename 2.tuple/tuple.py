@@ -32,3 +32,13 @@ print(a, b)
 # this show how tuple packing and unpacking helps switching variable without any temp value
 b, a = a, b
 print(a, b)
+
+# Fibonacci with this way
+
+i = int(input("Enter no."))
+
+a, b, count = 0, 1, 0
+
+while count < i:
+    print(f"{a}", end=" ")
+    a, b, count = b, a + b, count + 1
