@@ -10,3 +10,8 @@ logging.error('Error Message')
 logging.critical('Critical Message')
 
 import anotherone
+
+try:
+    num = 1 / 0
+except Exception as e:
+    logging.error(e, exc_info=True)
