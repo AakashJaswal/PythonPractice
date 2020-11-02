@@ -1,4 +1,6 @@
+import functools
 def decorator_func(f):
+    @functools.wraps(f)
     def inner_func(*args):
         print("Initial common task")
         return_value = f(*args)
