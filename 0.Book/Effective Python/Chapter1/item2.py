@@ -1,3 +1,5 @@
+# Item 2: Follow the PEP 8 Style Guide
+
 example_list = []
 str = ''
 
