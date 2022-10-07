@@ -9,3 +9,5 @@ print('Int: %f and string: %s' % (a, b))
 
 # F-String
 print(f'Int: {a:.{dig}f} and string: {b}')
+
+# you can try help('FORMATTING') to know more about this

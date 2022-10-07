@@ -1,7 +1,7 @@
 # Item 2: Follow the PEP 8 Style Guide
 
 example_list = []
-str = ''
+string = ''
 
 if not example_list:
     print("Empty list")
