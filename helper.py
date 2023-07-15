@@ -14,7 +14,7 @@ print(f'{sys.getsizeof(lst)=} bytes')
 print(f'{id(lst)=}')
 
 # Todo: Add about functional params
-# Todo: multithreading and multiprocessing
+# Todo: multithreading and multiprocessing using python threads
 
 
 def super_timer(f):
