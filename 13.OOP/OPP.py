@@ -1,8 +1,7 @@
-# There's no private variable but you can use _ prefix.
+# There's no private variable, but you can use _ prefix.
 # __spam (at least two leading underscores, at most one trailing underscore) is textually replaced with _classname__spam
 # this is called name mangling (to avoid name clashes of names with names defined by subclasses)
 
-# use @staticmethod for creating static method, can be called with class name can't use any class or object attr
 
 class Animal:
 
@@ -14,11 +13,13 @@ class Animal:
         pass
 
 
+# Inheritance
 class Dog(Animal):
-    Dogs = []  # Used by all the instances i.e., Class variable
+    Dogs = []  # Used by all the instances i.e., Class Object Attribute
 
     def __init__(self, name, age, type):
-        Animal.__init__(self, name, age)
+        # Animal.__init__(self, name, age)
+        super().__init__(name, age)
         self.type = type
         self.Dogs.append(self)
 
@@ -28,6 +29,8 @@ class Dog(Animal):
     @classmethod  # works like Java static i.e., access with class name and can only access class attribute
     def num_dogs(cls):
         return len(cls.Dogs)
+    # use @staticmethod for creating static method, can be called with class name can't use any class or object attr
+    # i.e, no cls or self keyword
 
 
 if __name__ == '__main__':
